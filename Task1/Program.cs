@@ -4,6 +4,7 @@
 // a = -9 b = -3 -> max = -3
 
 
+
 Console.WriteLine("Введите число:");
 int number1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число:");
@@ -16,4 +17,5 @@ else
 {
     Console.WriteLine("Максимальное число = " + number2);
 }
+
 
