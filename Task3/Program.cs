@@ -7,11 +7,32 @@
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 int lastDigit = number%10;
-if(lastDigit == 0 ||lastDigit == 2 || lastDigit == 4 || lastDigit == 6 || lastDigit == 8)
+if(number>0)
 {
-    Console.WriteLine("Да");
+   
+    if(lastDigit == 0 ||lastDigit == 2 || lastDigit == 4 || lastDigit == 6 || lastDigit == 8)
+    
+        {
+             Console.WriteLine("Да");
+        }
+    else
+        {
+            Console.WriteLine("Нет");
+        }
 }
-else
+        
+else 
 {
-    Console.WriteLine("Нет");
+    if(lastDigit == 0 ||lastDigit == -2 || lastDigit == -4 || lastDigit == -6 || lastDigit == -8)
+    
+        {
+             Console.WriteLine("Да");
+        }
+        else
+        {
+            Console.WriteLine("Нет");
+        }
 }
+    
+
+    
